@@ -1,0 +1,47 @@
+name: mechapp
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive:
+  hive_flutter: ^0.3.1
+  firebase_storage:
+  firebase_core: ^0.4.0+9
+  firebase_auth: ^0.14.0+5
+  cloud_firestore: ^0.13.4+2
+  cached_network_image:
+  intl:
+  eva_icons_flutter:
+  flutter_svg: ^0.18.1
+  flutter_vector_icons:
+  flutter_stripe_payment:
+  loading_overlay:
+  table_calendar:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  floor_generator: ^0.12.0
+  build_runner: ^1.7.3
+  hive_generator:
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: AvenirNext
+      fonts:
+        - asset: assets/fonts/AvenirNext.otf
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/raleway.ttf
